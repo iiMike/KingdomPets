@@ -41,7 +41,7 @@ class PetCommand extends PluginCommand {
 				$sender->sendMessage("§b/pets to Spawn your Pet");
 				$sender->sendMessage("§b/pets type [type]");
 				return true;
-				}else{$sender->sendMessage(TextFormat::RED."You do not have permission to use this command");
+				}else{$sender->sendMessage(TextFormat::RED."You need to be a Coal rank or above to use pets");
 					    }
 				return true;
 			break;
